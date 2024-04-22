@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .home {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .in-flex {
+            margin-bottom: 20px;
+            text-align: center;
+            max-width: 800px;
+        }
+        @media screen and (min-width: 768px) {
+            .home {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .in-flex {
+                margin-bottom: 0;
+                width: 30%;
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+<body>
+<section class="home">
+    <div class="in-flex">
+        <p>Un sitio web responsivo se adapta dinámicamente a diferentes tamaños de pantalla y dispositivos, brindando una experiencia de usuario óptima en cada uno de ellos. Los principales controles y componentes que hacen que un sitio web sea responsivo incluyen media queries, flexbox y grid, viewport meta tag, imágenes responsivas, unidades de medida flexibles, CSS grid layout y flexbox, reorganización y ocultamiento de elementos, Javascript para interacciones responsivas y pruebas en dispositivos múltiples.</p>
+    </div>
+    <div class="in-flex">
+        <p>Un sitio web responsivo se adapta dinámicamente a diferentes tamaños de pantalla y dispositivos, brindando una experiencia de usuario óptima en cada uno de ellos. Los principales controles y componentes que hacen que un sitio web sea responsivo incluyen media queries, flexbox y grid, viewport meta tag, imágenes responsivas, unidades de medida flexibles, CSS grid layout y flexbox, reorganización y ocultamiento de elementos, Javascript para interacciones responsivas y pruebas en dispositivos múltiples.</p>
+    </div>
+    <div class="in-flex">
+        <p>Un sitio web responsivo se adapta dinámicamente a diferentes tamaños de pantalla y dispositivos, brindando una experiencia de usuario óptima en cada uno de ellos. Los principales controles y componentes que hacen que un sitio web sea responsivo incluyen media queries, flexbox y grid, viewport meta tag, imágenes responsivas, unidades de medida flexibles, CSS grid layout y flexbox, reorganización y ocultamiento de elementos, Javascript para interacciones responsivas y pruebas en dispositivos múltiples.</p>
+    </div>
+</section>
+</body>
+</html>
